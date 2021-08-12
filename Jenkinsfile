@@ -23,6 +23,7 @@ java -version'''
 
     stage('Build with Maven') {
       steps {
+        sh 'mvn -f app-fin0/springboot2-jpa-crud-example/pom.xml <goals>'
         sh 'mvn clean install -DskipTests'
         dir(path: 'app-fin0/springboot2-jpa-crud-example/')
       }
