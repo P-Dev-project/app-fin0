@@ -18,6 +18,19 @@ java -version'''
           }
         }
 
+        stage('') {
+          steps {
+            sh '''npm install
+
+
+
+
+
+
+npm install -g @angular/cli@9.1.0'''
+          }
+        }
+
       }
     }
 
