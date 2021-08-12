@@ -13,7 +13,7 @@ java -version'''
 
         stage('Check for POM') {
           steps {
-            fileExists 'pom.xml'
+            fileExists 'app-fin0/springboot2-jpa-crud-example/pom.xml'
           }
         }
 
